@@ -1,0 +1,102 @@
+body {
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.title {
+  font-family: 'Lemonada', cursive;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 67px;
+  /* border-style: dotted dashed dotted dashed; */
+  border: 3px inset #469BD9;
+  background-color: #F3F3F2;
+  margin: 20px 85px 20px 85px;
+  padding: .3% 1%;
+  color: #469BD9;
+}
+
+.homepage {
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9rpUld_oUUyqZ7L-8M5XcL5eIYgH6M8vqxA&usqp=CAU); */
+  /* background-color: white; */
+  /* background-color: #CCFFDA; */
+  background-color: #aaffc4;
+
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #263692;
+  font-size: 31px;
+  margin: 3% 7%;
+}
+
+li {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #263692;
+  font-size: 28px;
+  margin: 3% 7%;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #263692;
+  font-size: 24px;
+  margin: 3% 7%;
+}
+
+a {
+  
+  text-decoration: none;
+  /* color: #469BD9; */
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: #469BD9;
+  
+}
+
+.navbarlink {
+  /* color: #2c4c82; */
+  color: #469BD9;
+  font-family: 'Raleway', sans-serif;
+  border: 3px ridge #469BD9;
+  /* border: 5px ridge #F6F5F4; */
+  padding: .5%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 34px;
+  background-color: #F3F3F2;
+}
+
+.earthpicturesection {
+  display: flex;
+  justify-content: flex-end;
+  /* float: right; */
+}
+
+.earthpicture {
+  position: absolute;
+  width: 710px;
+  height: 400px;
+  /* background: url(image.png); */
+  /* mix-blend-mode: normal; */
+  margin-top: 3%;
+  /* margin-left: 350px; */
+  /* margin-right: 150px; */
+  object-fit: cover;
+  /* float: right; */
+}
+
+.opening {
+  width: 450px;
+}
+
+.centered {
+  text-align: center;
+}
