@@ -75,26 +75,26 @@ nav {
 }
 
 .earthpicturesection {
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex; */
+  /* justify-content: flex-end; */
   /* float: right; */
 }
 
 .earthpicture {
   position: absolute;
-  width: 710px;
-  height: 400px;
+  width: 630px;
+  height: 325px;
   /* background: url(image.png); */
   /* mix-blend-mode: normal; */
   margin-top: 3%;
-  /* margin-left: 350px; */
-  /* margin-right: 150px; */
+  margin-left: 675px;
+  margin-right: 150px;
   object-fit: cover;
   /* float: right; */
 }
 
 .opening {
-  width: 450px;
+  width: 500px;
 }
 
 .centered {
